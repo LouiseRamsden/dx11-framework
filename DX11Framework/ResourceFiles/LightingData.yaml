@@ -1,0 +1,48 @@
+---
+version: 1
+Materials:
+  - name: ambient
+    rgba:
+      - 1
+      - 1
+      - 1
+      - 1
+  - name: diffuse
+    rgba:
+      - 0.3
+      - 0.3
+      - 0.3
+      - 1
+  - name: specular
+    rgba:
+      - 1
+      - 1
+      - 1
+      - 1
+Lighting:
+  - name: ambient
+    rgba:
+      - 0.1
+      - 0.1
+      - 0.1
+      - 1
+  - name: diffuse
+    rgba:
+      - 0.4
+      - 0.4
+      - 0.4
+      - 1
+  - name: specular
+    rgba:
+      - 0.2
+      - 0.2
+      - 0.2
+      - 1
+  - name: specular-power
+    power:
+      - 100
+  - name: direction
+    xyz:
+      - 0
+      - 1
+      - -1

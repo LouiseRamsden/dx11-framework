@@ -1,0 +1,18 @@
+---
+version: 1
+GameObjects:
+  - name: basecube
+    position:
+      - 1
+      - 1
+      - 1
+    file: cube.obj
+    texture: crate.dds
+    
+  - name: basecar
+    position:
+      - 2
+      - 2
+      - 2
+    file: basecar.obj
+    texture: basecar.dds
